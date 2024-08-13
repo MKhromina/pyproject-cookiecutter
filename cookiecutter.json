@@ -5,6 +5,7 @@
   "username": "Awesome user",
   "email": "awesome-user@example.com",
   "vcs_remote_type": [
+    "gitlab",
     "github",
     "bitbucket",
     "none"
