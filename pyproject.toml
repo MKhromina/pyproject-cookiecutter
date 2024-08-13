@@ -33,7 +33,7 @@ keywords = [
 classifiers = []
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.12"
+python = ">=3.10,<=3.12"
 cookiecutter = "^2.2.0"
 
 [tool.poetry.group.dev.dependencies]
@@ -46,7 +46,7 @@ nbdime = "^3.1.0"
 
 [tool.black]
 # https://github.com/psf/black
-target-version = ["py38"]
+target-version = ["py312"]
 line-length = 100
 color = true
 
@@ -68,7 +68,7 @@ exclude = '''
 
 [tool.isort]
 # https://github.com/timothycrosley/isort/
-py_version = 38
+py_version = 312
 line_length = 100
 
 known_typing = [
@@ -95,7 +95,7 @@ color_output = true
 
 [tool.mypy]
 # https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
-python_version = 3.8
+python_version = 3.12
 pretty = true
 show_traceback = true
 color_output = true
