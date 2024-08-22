@@ -99,7 +99,7 @@ jobs:
   test-project-312-poetry-140-docker-github:
     runs-on: ubuntu-latest
     env:
-      new_project_directory: /tmp/cookiecutter/py311
+      new_project_directory: /tmp/cookiecutter/py312
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
