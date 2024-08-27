@@ -2,7 +2,7 @@
   "project_name": "my-python-project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_').replace('.', '_') }}",
   "project_description": "Awesome `{{ cookiecutter.project_name.lower().replace(' ', '-') }}` project!",
-  "username": "Awesome user",
+  "orfanization": "Awesome organization",
   "email": "awesome-user@example.com",
   "vcs_remote_type": [
     "gitlab",
