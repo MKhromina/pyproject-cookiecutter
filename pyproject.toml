@@ -37,12 +37,12 @@ python = ">=3.10,<=3.12"
 cookiecutter = "^2.2.0"
 
 [tool.poetry.group.dev.dependencies]
-black = {version = "^24.8", allow-prereleases = true}
-isort = {extras = ["colors"], version = "^5.13.2"}
-pre-commit = "^3.8.0"
-ipykernel = "^6.29.5"
+black = {version = "^24.0", allow-prereleases = true}
+isort = {extras = ["colors"], version = "^5.10.1"}
+pre-commit = "^2.14.0"
+ipykernel = "^6.4.2"
 jupyter = "^1.0.0"
-nbdime = "^4.0.1"
+nbdime = "^3.1.0"
 
 [tool.black]
 # https://github.com/psf/black
@@ -95,7 +95,7 @@ color_output = true
 
 [tool.mypy]
 # https://mypy.readthedocs.io/en/latest/config_file.html#using-a-pyproject-toml-file
-python_version = 3.12
+python_version = 3.8
 pretty = true
 show_traceback = true
 color_output = true
